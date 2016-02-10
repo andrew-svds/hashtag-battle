@@ -42,3 +42,9 @@ Note there is a [bug](https://github.com/docker/docker/issues/18180) with the ve
  - Hashtags and/or terms are required
 
 When the app is first started (or restarted) all counts start at 0, it takes 10 minutes (or whatever your window is) to have a full moving window sum.
+
+##Data from Spark Summit 2015
+
+Also included is actual output from [Spark Summit 2015](https://spark-summit.org/2015/) day 1 in the file [hashtag-battle-spark-summit-2015.txt](hashtag-battle-spark-summit-2015.txt). Its format is `hashtag/term count timestamp` (with spaces in multi-word terms replaced with `_`). Below is a graph of a few of the hashtags and terms in this file.
+
+![Hashtag battle graph for spark summit 2015](spark-summit-2015.png)
